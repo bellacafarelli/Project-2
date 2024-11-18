@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=Quicksand:wght@300..700&family=Sofia&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background: #000000
+}
+
+canvas {
+  display: block;
+  border: 3px solid white;
+  margin: auto;
+}
+
+h1{
+  text-align: center;
+  font-family: 'Karla', sans-serif;
+  color: white;
+  font-style: normal;
+  padding-top: 10px;
+  
+}
+
+#button-holder {                
+  display: flex; 
+  justify-content: center;  
+  align-items: center;         
+} 
+
+
+
+button {
+  font-size: 15px;
+  background: white;
+  border: 3px, solid, #80d4ff;
+  color: #042059;
+  padding: 5px;
+  font-family: 'Karla', sans-serif;
+}
+
+button:hover {
+  background: #cccccc;
+  border: 3px, solid, #5289a8;
+  color: #001133;
+}
+
+h2 {
+  color: white;
+  text-align: center;
+  font-family: 'Karla', sans-serif;
+}
+
+.button-link {
+  text-align: center;
+  display: block;
+  color: white;
+}
+
+p {
+  color: white;
+  text-align: center;
+  padding-left: 10%;
+  padding-right: 10%;
+  font-family: 'Karla', sans-serif;
+  padding-bottom: 20px;
+}
+
