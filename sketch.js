@@ -71,34 +71,34 @@ function setup() {
   
 function preload(){
   //PLANETS
-  earth = loadImage('../assets/earth.png');
-  jupiter = loadImage('../assets/jupiter.png');
-  mars = loadImage('../assets/mars.png');
-  mercury = loadImage('../assets/mercury.png');
-  neptune = loadImage ('../assets/neptune.png');
-  saturn = loadImage('../assets/saturn.png');
-  sun = loadImage('../assets/sun.png');
-  uranus = loadImage('../assets/uranus.png');
-  venus = loadImage('../assets/venus.png');
+  earth = loadImage('./assets/earth.png');
+  jupiter = loadImage('./assets/jupiter.png');
+  mars = loadImage('./assets/mars.png');
+  mercury = loadImage('./assets/mercury.png');
+  neptune = loadImage ('./assets/neptune.png');
+  saturn = loadImage('./assets/saturn.png');
+  sun = loadImage('./assets/sun.png');
+  uranus = loadImage('./assets/uranus.png');
+  venus = loadImage('./assets/venus.png');
   
   //SYMBOLS
-  symbol[0] = loadImage('../assets/sunsymbol.png');
-  symbol[1] = loadImage('../assets/mercurysymbol.png');
-  symbol[2] = loadImage('../assets/venussymbol.png');
-  symbol[3] = loadImage('../assets/earthsymbol.png');
-  symbol[4] = loadImage('../assets/marssymbol.png');
-  symbol[5] = loadImage('../assets/jupitersymbol.png');
-  symbol[6] = loadImage('../assets/saturnsymbol.png');
-  symbol[7] = loadImage('../assets/uranussymbol.png');
-  symbol[8] = loadImage ('../assets/neptunesymbol.png');
+  symbol[0] = loadImage('./assets/sunsymbol.png');
+  symbol[1] = loadImage('./assets/mercurysymbol.png');
+  symbol[2] = loadImage('./assets/venussymbol.png');
+  symbol[3] = loadImage('./assets/earthsymbol.png');
+  symbol[4] = loadImage('./assets/marssymbol.png');
+  symbol[5] = loadImage('./assets/jupitersymbol.png');
+  symbol[6] = loadImage('./assets/saturnsymbol.png');
+  symbol[7] = loadImage('./assets/uranussymbol.png');
+  symbol[8] = loadImage ('./assets/neptunesymbol.png');
   
   //OTHER
-  rightArrow = loadImage('../assets/rightarrow.png');
-  leftArrow = loadImage('../assets/leftarrow.png');
-  font = loadFont('../assets/Quicksand-VariableFont_wght.ttf');
-  stars[0] = loadImage('../assets/star1.png');
-  stars[1] = loadImage ('../assets/star2.png');
-  stars[2] = loadImage('../assets/star3.png');
+  rightArrow = loadImage('./assets/rightarrow.png');
+  leftArrow = loadImage('./assets/leftarrow.png');
+  font = loadFont('./assets/Quicksand-VariableFont_wght.ttf');
+  stars[0] = loadImage('./assets/star1.png');
+  stars[1] = loadImage ('./assets/star2.png');
+  stars[2] = loadImage('./assets/star3.png');
   
 }
 
